@@ -1,30 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #377e82;
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 20px;
-    
-   
 }
 
-p1{
-    display:inline;
-    color:red;
+.required {
+    display: inline;
+    color: red;
 }
-h1{
-  color: red;
-  text-align:center;
+
+h1 {
+    color: red;
+    text-align: center;
 }
+
 h2 {
-  color: red;}
+    color: red;
+}
 
 form {
-    background-color: #c2d515;
+    background-color: #8ce7f5;
     padding: 20px;
     border-radius: 10px;
     width: 700px;
     margin: auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -33,17 +34,22 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], input[type="number"], select, textarea {
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: 1px solid #df8a0a;
+    border: 1px solid #0abfdf;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"],
+input[type="checkbox"] {
     margin-right: 10px;
 }
 
@@ -52,7 +58,7 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4caaaf;
     color: white;
     padding: 10px 20px;
     margin: 10px 5px 0 0;
@@ -62,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #4595a0;
 }
 
 p {
@@ -83,18 +89,16 @@ input[type="radio"] + label {
 }
 
 /* Adjust checkbox sections */
-.contact-options, .newsletter-options {
-    margin-bottom: 20px;
-}
-
-.contact-options label, .newsletter-options label {
+.contact-options label,
+.newsletter-options label {
     display: block;
     font-weight: normal;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 600px) {
     form {
+        width: 100%;
         padding: 10px;
     }
 }
